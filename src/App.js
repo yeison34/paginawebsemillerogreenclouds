@@ -6,6 +6,7 @@ import {
   Route,
   Navigate,
   useRoutes,
+  BrowserRouter,
 } from "react-router-dom";
 import BarraNavegacion from "./components/navegacion/BarraNavegacion";
 import ContenidoPrincipal from "./components/ContenidoPrincipal";

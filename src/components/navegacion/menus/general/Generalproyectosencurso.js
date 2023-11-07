@@ -14,7 +14,7 @@ import "../../../../lib/waypoints/waypoints.min.js";
 import "../../../../lib/owlcarousel/owl.carousel.min.js";
 
 //imagenes carousel
-import Grupo from "../../../../img/integrantes/integrantes2023.jpg";
+import Grupo from "../../../../img/integrantes/edicionintegrantes2023.gif";
 import Steammaker from "../../../../img/proyectos/imgcarousel/steammaker.jpg";
 import Travelprov from "../../../../img/proyectos/imgcarousel/travelprov.jpg";
 import Segujaz from "../../../../img/proyectos/imgcarousel/segujaz.jpg";
@@ -32,46 +32,45 @@ function Generalproyectosencurso() {
         <div id="carouselId" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active">
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <img src={Grupo} className="img-fluid" alt="Second slide" />
+              </div>
+              <div className="carousel-caption">
+                <div
+                  className="container carousel-content"
+                  style={{ position: "absolute", bottom: 0 }}>
+                  <div class="container text-center py-5">
+                    <nav aria-label="breadcrumb animated fadeInRight">
+                      <ol class="breadcrumb justify-content-center mb-0 animated fadeInRight">
+                        <li class="breadcrumb-item">
+                          <Link to="/" className="text-white">
+                            Home
+                          </Link>
+                        </li>
+                        <li class="breadcrumb-item">
+                          <Link to="/proyectos" className="text-white">
+                            Proyectos
+                          </Link>
+                        </li>
+                        <li class="breadcrumb-item" aria-current="page">
+                          Proyectos - encurso
+                        </li>
+                      </ol>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="carousel-item">
               <img src={Grupo} className="img-fluid" alt="Second slide" />
               <div className="carousel-caption">
                 <div
                   className="container carousel-content"
                   style={{ position: "absolute", bottom: 0 }}>
                   <div class="container text-center py-5">
-                    <h6 class="display-2 text-white mb-4 animated slideInDown">
+                    {/*<h6 class="display-2 text-white mb-4 animated slideInDown">
                       Proyectos en Curso
-                    </h6>
-                    <nav aria-label="breadcrumb animated fadeInRight">
-                      <ol class="breadcrumb justify-content-center mb-0 animated fadeInRight">
-                        <li class="breadcrumb-item">
-                          <Link to="/" className="text-white">
-                            Home
-                          </Link>
-                        </li>
-                        <li class="breadcrumb-item">
-                          <Link to="/proyectos" className="text-white">
-                            Proyectos
-                          </Link>
-                        </li>
-                        <li class="breadcrumb-item" aria-current="page">
-                          Proyectos - encurso
-                        </li>
-                      </ol>
-                    </nav>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item">
-              <img src={Steammaker} className="img-fluid" alt="Second slide" />
-              <div className="carousel-caption">
-                <div
-                  className="container carousel-content"
-                  style={{ position: "absolute", bottom: 0 }}>
-                  <div class="container text-center py-5">
-                    <h6 class="display-2 text-white mb-4 animated slideInDown">
-                      Proyectos en Curso
-                    </h6>
+                    </h6>*/}
                     <nav aria-label="breadcrumb animated fadeInRight">
                       <ol class="breadcrumb justify-content-center mb-0 animated fadeInRight">
                         <li class="breadcrumb-item">
@@ -95,15 +94,15 @@ function Generalproyectosencurso() {
             </div>
 
             <div className="carousel-item">
-              <img src={Plantsgpt} className="img-fluid" alt="Second slide" />
+              <img src={Grupo} className="img-fluid" alt="Second slide" />
               <div className="carousel-caption">
                 <div
                   className="container carousel-content"
                   style={{ position: "absolute", bottom: 0 }}>
                   <div class="container text-center py-5">
-                    <h6 class="display-2 text-white mb-4 animated slideInDown">
+                    {/*<h6 class="display-2 text-white mb-4 animated slideInDown">
                       Proyectos en Curso
-                    </h6>
+                    </h6>*/}
                     <nav aria-label="breadcrumb animated fadeInRight">
                       <ol class="breadcrumb justify-content-center mb-0 animated fadeInRight">
                         <li class="breadcrumb-item">
@@ -127,15 +126,15 @@ function Generalproyectosencurso() {
             </div>
 
             <div className="carousel-item">
-              <img src={Segujaz} className="img-fluid" alt="Second slide" />
+              <img src={Grupo} className="img-fluid" alt="Second slide" />
               <div className="carousel-caption">
                 <div
                   className="container carousel-content"
                   style={{ position: "absolute", bottom: 0 }}>
                   <div class="container text-center py-5">
-                    <h6 class="display-2 text-white mb-4 animated slideInDown">
+                    {/*<h6 class="display-2 text-white mb-4 animated slideInDown">
                       Proyectos en Curso
-                    </h6>
+                    </h6>*/}
                     <nav aria-label="breadcrumb animated fadeInRight">
                       <ol class="breadcrumb justify-content-center mb-0 animated fadeInRight">
                         <li class="breadcrumb-item">
@@ -159,15 +158,15 @@ function Generalproyectosencurso() {
             </div>
 
             <div className="carousel-item">
-              <img src={Travelprov} className="img-fluid" alt="Second slide" />
+              <img src={Grupo} className="img-fluid" alt="Second slide" />
               <div className="carousel-caption">
                 <div
                   className="container carousel-content"
                   style={{ position: "absolute", bottom: 0 }}>
                   <div class="container text-center py-5">
-                    <h6 class="display-2 text-white mb-4 animated slideInDown">
+                    {/*<h6 class="display-2 text-white mb-4 animated slideInDown">
                       Proyectos en Curso
-                    </h6>
+                    </h6>*/}
                     <nav aria-label="breadcrumb animated fadeInRight">
                       <ol class="breadcrumb justify-content-center mb-0 animated fadeInRight">
                         <li class="breadcrumb-item">

@@ -13,35 +13,34 @@ function ContenidoPrincipal() {
   return (
     <>
       <Carousel></Carousel>
-      <div class="container-fluid py-5 my-5">
-        <div
-          class="text-center mx-auto wow fadeIn"
-          data-wow-delay=".3s"
-          style={{ maxWidth: "600px" }}>
-          <h5 class="text-primary">Proyectos</h5>
-        </div>
-        <Propuesta></Propuesta>
-        <Encurso></Encurso>
-        <Finalizado></Finalizado>
-        <Eventos></Eventos>
-        <Publicaciones></Publicaciones>
-        <Coordinacion></Coordinacion>
-        <Participantes></Participantes>
-        <div
-          class="text-center mx-auto wow fadeIn"
-          data-wow-delay=".3s"
-          style={{ maxWidth: "600px" }}>
-          <h5 class="text-primary">Presentación</h5>
-        </div>
-        <Presentacion></Presentacion>
-        <div
-          class="text-center mx-auto wow fadeIn"
-          data-wow-delay=".3s"
-          style={{ maxWidth: "600px" }}>
-          <h5 class="text-primary">Lineas de Investigación</h5>
-        </div>
-        <Lineasinvestigacion></Lineasinvestigacion>
+      <div
+        class="text-center mx-auto wow fadeIn"
+        data-wow-delay=".3s"
+        style={{ maxWidth: "600px" }}>
+        <h5 class="text-primary">Presentación</h5>
       </div>
+      <Presentacion></Presentacion>
+      <div
+        class="text-center mx-auto wow fadeIn"
+        data-wow-delay=".3s"
+        style={{ maxWidth: "600px" }}>
+        <h5 class="text-primary">Lineas de Investigación</h5>
+      </div>
+      <Lineasinvestigacion></Lineasinvestigacion>
+
+      <div
+        class="text-center mx-auto wow fadeIn"
+        data-wow-delay=".3s"
+        style={{ maxWidth: "600px" }}>
+        <h5 class="text-primary">Proyectos</h5>
+      </div>
+      <Propuesta></Propuesta>
+      <Encurso></Encurso>
+      <Finalizado></Finalizado>
+      <Eventos></Eventos>
+      <Publicaciones></Publicaciones>
+      <Coordinacion></Coordinacion>
+      <Participantes></Participantes>
     </>
   );
 }

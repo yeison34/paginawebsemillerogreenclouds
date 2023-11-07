@@ -15,7 +15,7 @@ import "../../lib/waypoints/waypoints.min.js";
 
 import "../../lib/owlcarousel/owl.carousel.min.js";
 
-import Principal from "../../img/carousel/principal.jpg";
+import Principal from "../../img/integrantes/edicionintegrantes2023.gif";
 import WOW from "wow.js";
 import "../../js/main.js";
 import "../../css/style.css";
